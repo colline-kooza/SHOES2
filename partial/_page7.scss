@@ -4,6 +4,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    color: aliceblue;
     gap: 1rem;
     h3{
         color: #232b38;
@@ -49,6 +50,7 @@
     .head{
         display: flex;
         gap: 2rem;
+        color:white;
         i{
             color: rgb(4, 49, 249);
         }

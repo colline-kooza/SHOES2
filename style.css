@@ -1,6 +1,6 @@
 .main-container {
   height: 100%;
-  background-color: #fb6242;
+  background-color: #f04939;
 }
 .main-container section {
   display: flex;
@@ -42,7 +42,7 @@
   margin-top: 20px;
 }
 .main-container section span {
-  color: #fb6242;
+  color: #f04939;
 }
 .main-container section .div-button {
   display: flex;
@@ -51,7 +51,7 @@
 }
 .main-container section .div-button i {
   font-size: 30px;
-  color: #fb6242;
+  color: #f04939;
 }
 .main-container section .div-button a {
   color: aliceblue;
@@ -168,7 +168,8 @@ section .div-5 .nike {
   align-items: center;
   background-color: #fb6242;
   border-radius: 50px;
-  padding: 5px;
+  padding: 0px 15px;
+  text-transform: lowercase;
 }
 section .div-5 .nike h6 {
   color: aliceblue;
@@ -189,6 +190,9 @@ section .Most-popular {
 section .Most-popular a {
   text-decoration: none;
   color: aliceblue;
+}
+section .Most-popular h3 {
+  font-size: 15px;
 }
 section .SHOES {
   display: flex;
@@ -235,8 +239,8 @@ section .SHOES .SHOE-TYPES .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  font-size: 15px;
+  gap: 10px;
+  font-size: 10px;
   padding: 5px 25px;
   border-radius: 10px;
 }
@@ -259,6 +263,9 @@ section footer .footer1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+section footer .footer1 i {
+  font-size: 20px;
 }
 
 @media (max-width: 480px) {
@@ -375,8 +382,7 @@ section footer .footer1 {
 }
 
 .page-4 {
-  background-color: aliceblue;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -406,6 +412,8 @@ section footer .footer1 {
 .page-4 .text-container {
   display: flex;
   flex-direction: column;
+  color: aliceblue;
+  background-color: black;
   gap: 20px;
 }
 .page-4 .text-container i {
@@ -450,7 +458,7 @@ section footer .footer1 {
 }
 
 .page-4 {
-  background-color: aliceblue;
+  background-color: black;
   width: 100%;
   height: 100%;
   display: flex;
