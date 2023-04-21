@@ -1,0 +1,254 @@
+section{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    padding:0px 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .div-1{
+        display: flex;
+        justify-content: space-between;
+       
+        .sub-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: capitalize;
+            img{
+                border-radius: 50%;
+                object-fit: cover;
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+         .sub-11{
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            margin-left: 10px;
+            
+         }
+        }
+       
+        i{
+            font-size: 30px;
+        }
+        h6{
+            color: grey;
+        }
+    }
+    .div-2{
+        display: flex;
+        // justify-content: space-between;
+    }
+    .div-3{
+        display: flex;
+        // justify-content: space-between;
+    }
+    .div-4{
+        display: flex;
+        gap: 1rem;
+        color: aliceblue;
+        padding: 3rem;
+        font-size: 15px;
+        background-color: #fd6845;
+        border-radius: 10px;
+        width: 100%;
+        height: 20vh;
+        .container1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .container2{
+            img{
+                width: 75%;
+            }
+        }
+    }
+    .div-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        .nike{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fb6242 ;
+            border-radius: 50px;
+            padding: 5px;
+            h6{
+                color: aliceblue;
+            }
+        }
+        img{
+            background-color: #222b36;
+            object-fit: contain;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+    .Most-popular{
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    }
+    .SHOES{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-right: 28px;
+        .SHOE-TYPES{
+            display: flex;
+            color: aliceblue;
+            position: relative;
+            .icon-div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top-left-radius: 20px;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 20%;
+                height: 20%;
+                background-color:#fb6242;
+            }
+            .home-icon-div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fb6242;
+                width: 40%;
+                padding: 10px;
+                position: absolute;
+                left: 15px;
+                bottom: -50px;
+                font-size: 30px;
+                border-radius: 50%;
+            }
+            .container{
+                width: 100%;
+                height: 100%;
+                background-color:#222b36;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                font-size: 15px;
+                padding: 5px 25px;
+                border-radius: 10px;
+                h5{
+                    color: #fb6242 ;
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+    footer{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        .footer1{
+            display: flex;
+            gap: 1px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width:480px){
+    section{
+        width: 100%;
+        padding: 20px;
+        .div-1{
+            display: flex;
+            gap: 1rem;
+            color: aliceblue;
+        }
+        .div-2{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding: 0px 10px;
+            input{
+                background-color:#222b36;
+                font-size: 12px;
+                padding: 10px 40px;
+                border-radius: 10px;
+               
+            }
+            .icon{
+
+                i{
+                    font-size: 30px;
+                    padding: 5px;
+                    background-color:#222b36;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+        .div-3{
+            color: aliceblue;
+            display: flex;
+            gap: 9rem;
+        }
+        .div-4{
+            padding: 20px;
+            h3{
+                margin-top: 5px;
+                color: #222b36;
+            }
+            p{
+                margin-top: 5px;
+            }
+        }
+        .div-5{
+            display: flex;
+            gap: 2rem;
+        
+        }
+        footer{
+            background-color: #222b36;
+            width: 100%;
+            color: rgba(245, 222, 179, 0.465);
+            border-radius: 20px;
+        .footer1{
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            font-size: 15px;
+        }
+        }
+    }
+}
+@media(max-width:500px){
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+    }
+}
